@@ -24,7 +24,7 @@ const Header = ({
   // Container
   return (
     <Container>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center   justify-between">
         {/* Logo */}
         <Link href={"/"} aria-label="Home">
           <Logo invert={invert}>DevSolutions</Logo>
@@ -141,7 +141,7 @@ const RootLayoutInner = ({ children }) => {
           layout
           id={panelId}
           style={{ height: expanded ? "auto" : "0.5rem" }}
-          className="relative z-50 overflow-hidden bg-neutral-950 pt-2"
+          className="relative z-50 overflow-hidden bg-neutral-950 pt-3"
           aria-hidden={expanded ? undefined : "true"}
           inert={expanded ? undefined : ""}
         >

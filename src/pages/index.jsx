@@ -8,6 +8,7 @@ import Testimonials from '@/components/Testimonials'
 import Services from '@/components/Services'
 import ContactSection from '@/components/ContactSection'
 import logoPhobiaDark from "@/assets/logo-dark.svg";
+import Element3d from '@/components/Element3d'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,9 +26,9 @@ export default function Home() {
     //  </div> 
     //    {/* <Image src={"https://wp.codewp.ai/wp-content/uploads/2023/09/IMG_4435-1-scaled.jpg"} className=' absolute top-14 object-cover w-full h-[600px]  right-0 -z-20 ' alt='hero__img' width={1000} height={1000} /> */}
     // </section>
-    <main className="text-black">
-    <Container className="mt-24 sm:mt-32">
-      <FadeIn className="max-w-3xl">
+    <main className="text-black ">
+    <Container subDivClassName={"flex flex-col md:flex-row justify-between"} className="mt-24 sm:mt-32">
+      <FadeIn className="md:w-1/2 flex flex-col justify-center items-center">
         <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
           Make your online presence a reality with us!
         </h1>
@@ -37,6 +38,10 @@ export default function Home() {
           our staff have been involved in hit and runs.
         </p>
       </FadeIn>
+      <FadeIn className="w-full h-[40vh] md:h-auto md:w-[50vw] flex flex-col justify-center items-center">
+        <Element3d />
+      </FadeIn>
+
     </Container>
     <Clients />
     <Testimonials
