@@ -1,6 +1,4 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import PageIntro from '@/components/PageIntro'
+
 import Container from '@/components/Container'
 import FadeIn from '@/components/FadeIn'
 import Clients from '@/components/Clients'
@@ -10,7 +8,7 @@ import ContactSection from '@/components/ContactSection'
 import logoPhobiaDark from "@/assets/logo-dark.svg";
 import Element3d from '@/components/Element3d'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
