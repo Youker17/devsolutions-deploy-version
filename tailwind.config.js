@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        "4xl": "2.5rem",
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

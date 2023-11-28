@@ -1,9 +1,9 @@
 import clsx from "clsx";
 
-const Container = ({ as: Component = "div", className, children }) => {
+const Container = ({ as: Component = "div", className, children,subDivclassName }) => {
   return (
     <Component className={clsx("max-w-7xl mx-auto px-6 lg:px-8", className)}>
-      <div className="max-w-2xl mx-auto lg:max-w-none">{children}</div>
+      <div className={clsx("max-w-2xl mx-auto lg:max-w-none",subDivclassName)}>{children}</div>
     </Component>
   );
 };
