@@ -27,7 +27,7 @@ const Header = ({
       <div className="flex items-center   justify-between">
         {/* Logo */}
         <Link href={"/"} aria-label="Home">
-          <Logo invert={invert}>DevSolutions</Logo>
+          <Logo className={"font-display"} invert={invert}>DevSolutions.</Logo>
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href={"/contact"} invert={invert} className={" hidden sm:flex"}>

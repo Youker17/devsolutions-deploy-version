@@ -31,7 +31,7 @@ const Clients = () => {
 //       </Container> 
 //  </div>
 <section>
-<div class="px-5 py-16 md:px-10 md:py-24 ">
+<div class="px-6 py-10 md:px-8 md:py-14 ">
   <div class="mx-auto flex w-full max-w-[898px] flex-col rounded-[36px] bg-black py-8 text-white">
     <div class="grid h-full w-full grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-4 md:gap-0">
       <div class="flex flex-col items-center justify-center lg:border-r lg:border-solid lg:border-r-[#c3c0c04d]">
