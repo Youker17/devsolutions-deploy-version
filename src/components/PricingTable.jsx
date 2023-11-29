@@ -8,7 +8,7 @@ export default function PricingTable() {
             style={{ backgroundImage: `url(${bg.src})` ,
                 backgroundSize: 'cover',
         }}
-            className="min-h-[90vh] mx-4 mt-10 flex justify-center rounded-3xl  pb-32 pt-10 text-white font-display items-center">
+            className="min-h-[90vh] mx-4 mt-10 flex justify-center rounded-4xl shadow-2xl  pb-32 pt-10 text-white font-display items-center">
             <div className="">
                 <div className="text-center font-semibold">
                     <h1 className="text-5xl">
