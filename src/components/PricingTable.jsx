@@ -1,10 +1,23 @@
 import bg from '@/assets/pricing-bg.jpg'
+import { motion } from 'framer-motion'
 
 
 export default function PricingTable() {
 
     return (
-        <div
+        <motion.div
+        initial={{ opacity: 0, y: 20 }}
+          whileInView={
+            {
+              opacity: 1,
+              y: 0,
+              transition: {
+                duration: 0.5,
+                delay: 0.1,
+              },
+            }
+          }
+        
             style={{ backgroundImage: `url(${bg.src})` ,
                 backgroundSize: 'cover',
         }}
@@ -142,7 +155,7 @@ export default function PricingTable() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
 
     )
 }
