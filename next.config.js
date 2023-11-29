@@ -6,6 +6,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "wp.codewp.ai",
+      }, 
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
       } 
     ]
     }    

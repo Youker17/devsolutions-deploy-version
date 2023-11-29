@@ -8,6 +8,7 @@ import ContactSection from '@/components/ContactSection'
 import logoPhobiaDark from "@/assets/logo-dark.svg";
 import Element3d from '@/components/Element3d'
 import PricingTable from "@/components/PricingTable"
+import { TestimonialTooltip } from "@/components/ToolTip"
 
 
 
@@ -79,30 +80,7 @@ export default function Home() {
               </svg>
             </button>
           </div>
-          <div className="flex -space-x-4  mt-3  items-center rtl:space-x-reverse">
-            <img
-              className="w-10 h-10 border-2  rounded-full"
-              src={client.src}
-              alt=""
-            />
-            <img
-              className="w-10 h-10 border-2  rounded-full"
-              src={client.src}
-              alt=""
-            />
-            <img
-              className="w-10 h-10 border-2  rounded-full"
-              src={client.src}
-              alt=""
-            />
-            <a
-              className="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-900 border-2 border-white rounded-full hover:bg-gray-800"
-              href="#"
-            >
-              +29
-            </a>
-            <p className="font-display font-light px-6">Satisfied Clients !</p>
-          </div>
+         <TestimonialTooltip />
 
         </FadeIn>
         <FadeIn className="w-full h-[40vh] md:h-auto md:w-[50vw] flex flex-col justify-center items-center">
