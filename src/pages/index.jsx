@@ -7,7 +7,7 @@ import Services from '@/components/Services'
 import ContactSection from '@/components/ContactSection'
 import logoPhobiaDark from "@/assets/logo-dark.svg";
 import Element3d from '@/components/Element3d'
-import PricingTable from "@/components/PricingTable"
+import PricingTable from "@/components/Projects"
 import { TestimonialTooltip } from "@/components/ToolTip"
 import Team from "@/components/Team"
 import { useEffect } from "react"
