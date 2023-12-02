@@ -9,6 +9,7 @@ import logoPhobiaDark from "@/assets/logo-dark.svg";
 import Element3d from '@/components/Element3d'
 import PricingTable from "@/components/Projects"
 import { TestimonialTooltip } from "@/components/ToolTip"
+import Team from "@/components/Team"
 
 
 
@@ -101,6 +102,7 @@ export default function Home() {
       </Testimonials>
       <PricingTable />
       <Services />
+      <Team />
       <ContactSection />
     </main>
   )
