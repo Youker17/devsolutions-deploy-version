@@ -28,7 +28,7 @@ const AboutPage = () => {
           </p>
         </div>
       </PageIntro>
-      <Container className="mt-16">
+      <Container className="mt-16 mx-10">
         <StatList>
           <StatListItem value="35" label="Underpaid employees" />
           <StatListItem value="52" label="Placated clients" />
