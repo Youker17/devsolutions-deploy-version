@@ -36,7 +36,7 @@ function ListProjects() {
     <div class="mx-auto flex  flex-col-reverse lg:flex-row  gap-4  lg:gap-10">
     
       <div class="relative flex flex-col  gap-4 lg:w-2/6  md:h-auto">
-      <h2 class="text-3xl font-bold md:text-5xl font-display">DesignJoy</h2>
+      <h2 class="text-3xl font-semibold md:text-5xl font-display">DesignJoy</h2>
             <p class="flex-col text-[#808080] text-sm  sm:text-base">
             Aliquet risus feugiat in ante metus. Arcu dui vivamus arcu felis bibendum ut. Vestibulum lorem sed risus ultricies tristique nulla. Vitae et leo duis ut diam quam. Bibendum arcu vitae elementum curabitur vitae nunc. Dictumst vestibulum rhoncus est pellentesque. Lectus proin nibh nisl condimentum id. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.
             </p>
@@ -70,7 +70,7 @@ function ListProjects() {
     <div class="mx-auto flex  flex-col-reverse   lg:flex-row-reverse gap-4  lg:gap-10">
     
       <div class="relative flex flex-col  gap-4 lg:w-2/6  md:h-auto">
-      <h2 class="text-3xl font-bold md:text-5xl font-display">DevCraft</h2>
+      <h2 class="text-3xl font-semibold md:text-5xl font-display">DevCraft</h2>
             <p class="flex-col text-[#808080] text-sm  sm:text-base">
             Aliquet risus feugiat in ante metus. Arcu dui vivamus arcu felis bibendum ut. Vestibulum lorem sed risus ultricies tristique nulla. Vitae et leo duis ut diam quam. Bibendum arcu vitae elementum curabitur vitae nunc. Dictumst vestibulum rhoncus est pellentesque. Lectus proin nibh nisl condimentum id. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.
             </p>
@@ -104,7 +104,7 @@ function ListProjects() {
     <div class="mx-auto flex  flex-col-reverse lg:flex-row  gap-4  lg:gap-10">
     
       <div class="relative flex flex-col  gap-4 lg:w-2/6  md:h-auto">
-      <h2 class="text-3xl font-bold md:text-5xl font-display">YourCad</h2>
+      <h2 class="text-3xl font-semibold md:text-5xl font-display">YourCad</h2>
             <p class="flex-col text-[#808080] text-sm  sm:text-base">
             Aliquet risus feugiat in ante metus. Arcu dui vivamus arcu felis bibendum ut. Vestibulum lorem sed risus ultricies tristique nulla. Vitae et leo duis ut diam quam. Bibendum arcu vitae elementum curabitur vitae nunc. Dictumst vestibulum rhoncus est pellentesque. Lectus proin nibh nisl condimentum id. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.
             </p>

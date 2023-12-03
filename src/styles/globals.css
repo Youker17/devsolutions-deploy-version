@@ -79,3 +79,14 @@
 }
 
 
+
+@keyframes increaseWidth {
+  to {
+    width: 100%;
+  }
+}
+
+.loader {
+  width: 10%;
+  animation: increaseWidth 3.5s ease-in-out forwards;
+}
