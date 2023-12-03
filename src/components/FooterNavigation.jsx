@@ -1,5 +1,6 @@
 import { navigation } from "@/constants";
 import Link from "next/link";
+import LangToggle from "./LangToggle";
 
 const FooterNavigation = () => {
   return (

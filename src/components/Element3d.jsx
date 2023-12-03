@@ -8,7 +8,7 @@ export default function Element3d() {
     const [loading, setLoading] = useState(true);
 
     return (
-        <div className="w-[120%] h-[120%] relative ">
+        <div className="w-[120%] h-[120%] hidden lg:block relative ">
             <iframe id="test" loading="eager"  onLoad={e=>setLoading(false)} className="relative" src='https://my.spline.design/websitemodel-86aae82fc277caa721e45946a01329c5/' frameborder='0' width='100%' height='100%'>
 
             </iframe>

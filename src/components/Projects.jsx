@@ -30,7 +30,7 @@ export default function Projects() {
                 backgroundImage: `url(${bg.src})`,
                 backgroundSize: 'cover',
             }}
-            className="min-h-[90vh] mx-4 mt-10 flex justify-center rounded-4xl shadow-2xl  pb-20 pt-20 text-white font-display ">
+            className="lg:min-h-[90vh] mx-4 mt-10 flex justify-center rounded-4xl shadow-2xl  pb-20 pt-20 text-white font-display ">
             <div className="h-full">
                 <div className="text-center font-semibold">
                     <h1 className="text-5xl">
@@ -44,7 +44,7 @@ export default function Projects() {
                     
                 </div>
                 <Swiper
-                    className=' w-[80vw] h-[80vh] mt-10'
+                    className=' w-[80vw] aspect-video lg:h-[80vh] mt-10'
                     spaceBetween={50}
                     modules={[Autoplay,EffectFade]}
                     autoplay={{

@@ -3,7 +3,7 @@
 
 export default function ProjectCardSwiper({ image, title, description }) {
     return (
-        <div className='h-full relative w-full flex flex-col justify-center items-center p-10'>
+        <div className='h-full relative w-full flex flex-col justify-center items-center p-4 lg:p-10'>
             <div className="transition-all rounded-3xl duration-200 ease-in-out opacity-0 hover:opacity-100 absolute top-0 left-0 w-full h-full bg-black/70 flex flex-col gap-4 justify-center items-center ">
                 <h1 className='text-4xl capitalize font-semibold text-white'>{title}</h1>
                 <p className='text-lg max-w-md text-center text-white'>{description}</p>

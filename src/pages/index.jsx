@@ -10,6 +10,7 @@ import Element3d from '@/components/Element3d'
 import PricingTable from "@/components/Projects"
 import { TestimonialTooltip } from "@/components/ToolTip"
 import Team from "@/components/Team"
+import Link from "next/link"
 
 
 
@@ -17,20 +18,8 @@ import Team from "@/components/Team"
 export default function Home() {
   return (
     
-    // <section className=' relative flex  w-full h-[100vh]'>
-    //    <PageIntro eyebrow="" title="Make your online presence a reality with us!">
-    //     <p>
-    //     We are a group of developer working at the intersection of design and technology. It is a really busy intersection though — a lot of our staff have been involved in hit and runs.
-    //     </p>
-    //   </PageIntro>
-    //  {/* <div className='w-2/6 '>
-    //  {/* <iframe className='absolute -top-20   h-[80vh]   'src='https://my.spline.design/computerlove-896e3135f3618264dfe318177c23b94d/' frameborder='0' width='50%' height='100%'></iframe> 
-    //  {/* <iframe className='absolute top-2 right-10 h-[80vh]  ' src='https://my.spline.design/computerlove-401bcc672741cecc503f65b1fc9f611a/' frameborder='0' width='50%' height='50%'></iframe> 
-    //  </div> 
-    //    {/* <Image src={"https://wp.codewp.ai/wp-content/uploads/2023/09/IMG_4435-1-scaled.jpg"} className=' absolute top-14 object-cover w-full h-[600px]  right-0 -z-20 ' alt='hero__img' width={1000} height={1000} /> */}
-    // </section>
     <main className="text-black relative">
-      <Container subDivClassName={"flex flex-col md:flex-row justify-between"} className="mt-16  sm:mt-20">
+      <Container subDivClassName={"flex flex-col lg:flex-row justify-between"} className="mt-16  sm:mt-20">
         {/* <div className='w-[70vw] origin-center h-[90vh] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-sky-600/25 via-sky-100/0 absolute -top-80 -left-40'/> */}
         <FadeIn className="md:w-1/2 flex flex-col ">
           <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
@@ -41,7 +30,7 @@ export default function Home() {
             and technology. It is a really busy intersection though — a lot of
             our staff have been involved in hit and runs.
           </p>
-          <div className='flex flex-row gap-3 justify-start items-end '>
+          <div className='flex lg:flex-row flex-col gap-3 justify-start items-start lg:items-end '>
             <div className="relative max-w-xs mt-5">
               <input
                 type="email"
@@ -67,12 +56,13 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <button
+            <Link
+            href={"/work"}
               type="submit"
               aria-label="Submit"
               className="flex py-3.5 group px-3  items-center justify-center rounded-xl font-display font-bold border-blue-800 border-2 hover:text-white text-blue-800 transition-all  hover:bg-blue-800"
             >
-              Explore Prices
+              Explore Work
               <svg className='ml-2 w-4 group-hover:text-white text-blue-800 transition-all' viewBox="0 0 16 6" aria-hidden="true" >
                 <path
                   fill="currentColor"
@@ -81,12 +71,12 @@ export default function Home() {
                   d="M16 3 10 .5v2H0v1h10v2L16 3Z"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
          <TestimonialTooltip />
 
         </FadeIn>
-        <FadeIn className="w-full h-[40vh] md:h-auto md:w-[50vw] flex flex-col justify-center items-center">
+        <FadeIn className="w-full hidden  h-[40vh] md:h-auto md:w-[50vw] lg:flex flex-col justify-center items-center">
           <Element3d />
         </FadeIn>
 
