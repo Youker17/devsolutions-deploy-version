@@ -11,6 +11,8 @@ import PricingTable from "@/components/Projects"
 import { TestimonialTooltip } from "@/components/ToolTip"
 import Team from "@/components/Team"
 import Link from "next/link"
+import { useEffect } from "react"
+import Script from "next/script"
 
 
 
@@ -19,7 +21,8 @@ export default function Home() {
   return (
     
     <main className="text-black relative">
-      <Container subDivClassName={"flex flex-col lg:flex-row justify-between"} className="mt-16  sm:mt-20">
+         <div className="cursor"></div>
+      <Container subDivClassName={"flex flex-col md:flex-row justify-between"} className="mt-16  sm:mt-20">
         {/* <div className='w-[70vw] origin-center h-[90vh] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-sky-600/25 via-sky-100/0 absolute -top-80 -left-40'/> */}
         <FadeIn className="md:w-1/2 flex flex-col ">
           <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
