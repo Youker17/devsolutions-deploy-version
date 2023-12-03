@@ -92,7 +92,7 @@ const Navigation = () => {
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/process">Our Process</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+        <NavigationItem href="/services">Services</NavigationItem>
         <NavigationItem href="/contact" className={" flex sm:hidden"}>Contact</NavigationItem>
       </NavigationRow>
     </nav>

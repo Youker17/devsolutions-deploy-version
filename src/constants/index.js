@@ -22,7 +22,7 @@ export const navigation = [
     links: [
       { title: "About", href: "/about" },
       { title: "Process", href: "/process" },
-      { title: "Blog", href: "/blog" },
+      { title: "Services", href: "/services" },
       { title: "Contact us", href: "/contact" },
     ],
   },

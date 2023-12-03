@@ -6,19 +6,25 @@ import {
   BsGithub,
   BsYoutube,
   BsLinkedin,
+  BsInstagram,
 } from "react-icons/bs";
 
 export const SocialMediaProfiles = [
-  {
-    title: "Youtube",
-    href: "https://www.youtube.com/watch?v=eAswnbWptBM",
-    icon: BsYoutube,
-  },
-  { title: "GitHub", href: "https://github.com/chrhi", icon: BsGithub },
+  // {
+  //   title: "Youtube",
+  //   href: "https://www.youtube.com/watch?v=eAswnbWptBM",
+  //   icon: BsYoutube,
+  // },
+  // { title: "GitHub", href: "https://github.com/chrhi", icon: BsGithub },
   {
     title: "Facebook",
     href: "https://www.facebook.com/profile.php?id=100010070348939",
     icon: BsFacebook,
+  },
+  {
+    title: "Instagram",
+    href: "https://www.facebook.com/profile.php?id=100010070348939",
+    icon: BsInstagram,
   },
   {
     title: "linkedin",
