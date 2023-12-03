@@ -1,4 +1,5 @@
 import AnimatedImg from '@/components/AnimatedImg'
+import ListProjects from '@/components/ListProjects'
 import PageIntro from '@/components/PageIntro'
 import React from 'react'
 
@@ -11,6 +12,7 @@ function index() {
         </p>
       </PageIntro>
       <AnimatedImg />
+      <ListProjects />
     </>
   )
 }

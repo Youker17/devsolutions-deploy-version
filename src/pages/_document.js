@@ -4,8 +4,6 @@ import Script from 'next/script'
 export default function Document() {
   return (
     <Html lang="en" style={{scrollBehavior:'smooth'}}>
-      <Head></Head>
-    <Html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
