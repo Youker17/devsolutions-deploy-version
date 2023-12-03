@@ -12,6 +12,7 @@ import { TestimonialTooltip } from "@/components/ToolTip"
 import Team from "@/components/Team"
 import { useEffect } from "react"
 import Script from "next/script"
+import Head from "next/head"
 
 
 
@@ -32,7 +33,6 @@ export default function Home() {
     //    {/* <Image src={"https://wp.codewp.ai/wp-content/uploads/2023/09/IMG_4435-1-scaled.jpg"} className=' absolute top-14 object-cover w-full h-[600px]  right-0 -z-20 ' alt='hero__img' width={1000} height={1000} /> */}
     // </section>
     <main className="text-black relative">
-         <div className="cursor"></div>
       <Container subDivClassName={"flex flex-col md:flex-row justify-between"} className="mt-16  sm:mt-20">
         {/* <div className='w-[70vw] origin-center h-[90vh] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-sky-600/25 via-sky-100/0 absolute -top-80 -left-40'/> */}
         <FadeIn className="md:w-1/2 flex flex-col ">
